@@ -4,7 +4,7 @@ from movies_crud.routes.routes import router
 from movies_crud.database import database
 from movies_crud.models import movie_model 
 
-# Esto creará la tabla 'movies' automáticamente en MySQL al arrancar
+
 database.Base.metadata.create_all(bind=database.engine)
 
 app = FastAPI(title="Movies CRUD API")

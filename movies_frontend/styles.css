@@ -1,6 +1,6 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #0b132b; /* Azul Oxford Profundo */
+    background-color: #0b132b; 
     color: #f4f5f7;
     margin: 0;
     padding: 20px;
@@ -13,7 +13,7 @@ body {
 
 h1 {
     text-align: center;
-    color: #48cae4; /* Celeste Brillante */
+    color: #48cae4; 
     margin-bottom: 30px;
     font-size: 2.5rem;
 }
@@ -31,7 +31,7 @@ h3 {
 }
 
 .card-form {
-    background-color: #1c2541; /* Azul Marino */
+    background-color: #1c2541; 
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.3);
