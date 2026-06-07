@@ -1,0 +1,8 @@
+# Ignorar el entorno virtual 
+venv/
+
+# Ignorar las variables de entorno locales 
+movies_crud/.env
+
+# Ignorar todos los archivos basura de caché de Python
+**/__pycache__/

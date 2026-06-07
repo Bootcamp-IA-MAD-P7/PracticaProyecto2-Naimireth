@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎬 Administrador de peliculas</h1>
+        
+        <div class="grid-forms">
+            <div class="card-form">
+                <h3>Agregar nueva pelicula</h3>
+                <form id="movieForm">
+                    <input type="text" id="title" placeholder="Título de la pelicula" required>
+                    <input type="text" id="description" placeholder="Descripción de la pelicula">
+                    <button type="submit" class="btn-add">Guardar</button>
+                </form>
+            </div>
+
+            <div class="card-form">
+                <h3>Actualizar pelicula</h3>
+                <form id="updateForm">
+                    <input type="number" id="updateId" placeholder="ID de la pelicula" required>
+                    <input type="text" id="updateTitle" placeholder="Nuevo título" required>
+                    <input type="text" id="updateDescription" placeholder="Nueva descripción">
+                    <button type="submit" class="btn-update">Actualizar Pelicula</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="action-bar">
+            <h2>Mi Colección de Películas</h2>
+            <button id="btnRefresh" class="btn-refresh">🔄 Refrescar Lista</button>
+        </div>
+
+        <div id="moviesList" class="movies-container">
+            <p>Cargando colección...</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
